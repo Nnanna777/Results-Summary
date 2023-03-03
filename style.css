@@ -1,0 +1,112 @@
+body{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.result-container{
+    display: flex;
+    width:560px;
+}
+.circle{
+    border-radius: 80px;
+    margin:50px;
+    padding:30px;
+    line-height:2px;
+    text-align: center;
+    background-color:#5241bd ;
+}
+.circle-light{
+    opacity: 0.4;
+    margin-left: 5px;
+}
+.result-score{
+    text-align: center;
+    width:280px;
+    color: white;
+    background-color:#554ecf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px 0;
+    border-radius: 30px;
+}
+.result-score h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.result-score h4{
+    opacity: 0.7;
+}
+.result-score p{
+    opacity: 0.8;
+    font-size:14px;
+}
+.result-sum{
+    width:280px;
+    background-color: white;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+    border-right: 1px solid #e6e8ee;
+    border-bottom: 1px solid #e6e8ee;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.result-sum-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.result-sum-content span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    margin: 5px 5px;
+}
+.react{
+    color: hsl(0, 100%, 67%);
+}
+.mem{
+    color:hsl(39, 100%, 56%);
+}
+.verb{
+    color:hsl(166, 100%, 37%);
+}
+.vis{
+    color:hsl(234, 85%, 45%) ;
+}
+.react-bcl, .mem-bcl{
+    background-color: #fffbf2; 
+    margin:10px 0;
+}
+.verb-bcl, .vis-bcl{
+    background-color: #f3f3fd;
+    margin:10px 0;
+}
+img{
+    margin-right:8px;
+}
+.result-sum h4{
+    opacity: 0.7;
+}
+button{
+    padding:15px 30px;
+    border-radius: 25px;
+    color:white;
+    background-color: #303b59;
+    border: none;
+}
+button:hover{
+    background-color:#4c37f4;
+}
